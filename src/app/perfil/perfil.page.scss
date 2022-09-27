@@ -1,0 +1,38 @@
+ion-thumbnail {
+  --margin-top: 20px;
+  --size: 50px;
+  --border-radius: 14px;
+}
+
+.menu-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.grupo-img {
+  display: flex;
+  justify-content: start;
+}
+
+.grupo-img .img-perfil {
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.Titulo-1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.boton {
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.boton ion-button {
+  height: 50px;
+}
