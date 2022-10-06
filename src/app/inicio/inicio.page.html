@@ -1,40 +1,51 @@
 <ion-header>
   <ion-toolbar>
-    <ion-tab-button tab="buscar">
+    <ion-tab-button tab="buscar" slot="start">
       <ion-icon name="search-outline"></ion-icon>
     </ion-tab-button>
-    <ion-tab-button tab="perfil">
+    <ion-tab-button tab="perfil" slot="secondary">
       <ion-icon name="person-circle-outline"></ion-icon>
     </ion-tab-button>
   </ion-toolbar>
+
+
 </ion-header>
 <ion-content>
 
-  <ion-card>
-    <ion-card-header>
-      <img src="https://pics.filmaffinity.com/Los_Mitchell_contra_las_m_quinas-823717796-large.jpg" alt="">
-      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-      <img src="https://pics.filmaffinity.com/Los_Mitchell_contra_las_m_quinas-823717796-large.jpg" alt="">
-      <ion-card-title>Card Title</ion-card-title>
-    </ion-card-header>
+<!---------------------------------------------------------------------------------------------->
+<!--##########################################################################################-->
 
-    <ion-card-content>
-      Keep close to Nature's heart... and break clear away, once in awhile,
-      and climb a mountain or spend a week in the woods. Wash your spirit clean.
-    </ion-card-content>
-  </ion-card>
+  <div class="img-header">
+    <img src="https://image.tmdb.org/t/p/original/u6xUFPssUcBuQfgJOsRNfzqRXkc.jpg" alt="">
+  </div>
 
-  <ion-card>
-    <ion-item>
-      <ion-icon name="pin" slot="start"></ion-icon>
-      <ion-label>ion-item in a card, icon left, button right</ion-label>
-      <ion-button fill="outline" slot="end">View</ion-button>
-    </ion-item>
+<div class="submenu-header">
+  <ion-icon name="add-outline">Mi lista</ion-icon>
+  <ion-button>
+    <ion-icon name="play-outline"></ion-icon>
+    Reproducir
+  </ion-button>
+  <ion-icon name="add-outline">Información</ion-icon>
+</div>
 
-    <ion-card-content>
-      This is content, without any paragraph or header tags,
-      within an ion-card-content element.
-    </ion-card-content>
-  </ion-card>
+  <div class="card-contenido">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/81KjBiKs-AL.jpg" alt="">
+    <ion-button fill="clear"></ion-button>
+  </div>
+
+  <div class="card-contenido">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/81KjBiKs-AL.jpg" alt="">
+    <ion-button fill="clear"></ion-button>
+  </div>
+
+  <div class="card-contenido">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/81KjBiKs-AL.jpg" alt="">
+    <ion-button fill="clear"></ion-button>
+  </div>
+
+  <div class="card-contenido">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/81KjBiKs-AL.jpg" alt="">
+    <ion-button fill="clear"></ion-button>
+  </div>
 
 </ion-content>

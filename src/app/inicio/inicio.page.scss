@@ -1,0 +1,36 @@
+ion-header{
+  background: rgba(0, 0, 0, 0);
+}
+
+.submenu-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.card-contenido{
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+}
+
+.card-contenido ion-button{
+  position: absolute;
+  width: 100px;
+  height: 170px;
+  border-radius: 20px;
+  right: -2px;
+  top: -5px;
+}
+
+.card-contenido img{
+  width: 100px;
+  height: 170px;
+  border-radius: 5px;
+}
+
+
+
+
